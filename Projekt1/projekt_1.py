@@ -55,7 +55,7 @@ else:
     exit()
 
 textNumber = input("Enter a number btw. 1 and 3 to select: ")
-if not textNumber.isdigit() or int(textNumber) not in range(1, 4):
+if int(textNumber) not in range(1, 4):
     print("input must be number between 1 and 3, terminating the program..")
     exit()
 
