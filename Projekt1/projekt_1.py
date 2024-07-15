@@ -5,6 +5,8 @@ email: jaroslav.safranek@rako.cz
 discord: Joker055#6334
 """
 
+import re
+
 TEXTS = ['''
 Situated about 10 miles west of Kemmerer,
 Fossil Butte is a ruggedly impressive
@@ -62,8 +64,7 @@ if not textNumber.isdigit() or int(textNumber) not in range(1, 4):
 print(line)
 
 selectedText = TEXTS[int(textNumber) - 1]
-selectedText = selectedText.replace(",", " ")
-selectedText = selectedText.replace(".", " ")
+selectedText = re.sub(r'[^\w\s]', '', selectedText)
 numberOfWords = len(selectedText.split())
 
 titlecaseWords = 0
@@ -75,7 +76,7 @@ wordsLengths = []
 maxLength = 0
 
 for word in selectedText.split():
-    if word.istitle():
+    if re.match(r'^[A-Z].*', word):
         titlecaseWords += 1
     if word.isupper() and word.isalpha():
         uppercaseWords += 1
