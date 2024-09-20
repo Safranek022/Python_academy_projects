@@ -1,5 +1,5 @@
 """
-projekt_3.py: třetí projekt do Engeto Online Python Akademie
+election_scraper.py: třetí projekt do Engeto Online Python Akademie
 author: Jaroslav Šafránek
 email: jaroslav.safranek@rako.cz
 discord: Joker055#6334
