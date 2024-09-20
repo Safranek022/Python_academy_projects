@@ -53,6 +53,7 @@ Ukončuji election_scraper.py
 Částečný výstup:
 
 ```
-[{'code': '565423', 'location': 'Bdín', 'registered': 51, 'envelopes': 34, 'valid': 34, 'Občanská demokratická strana': 1, 'Řád národa - Vlastenecká unie': 0, 'CESTA ODPOVĚDNÉ SPOLEČNOSTI': 0, 'Česká str.sociálně demokrat.': 7, 'Radostné Česko': 0, 'STAROSTOVÉ A
-NEZÁVISLÍ': 1, 'Komunistická str.Čech a Moravy': 1, 'Strana zelených': 1, 'ROZUMNÍ-stop migraci,diktát.EU': 0, 'Strana svobodných občanů': 0, 'Blok proti islam.-Obran.domova': 0, 'Občanská demokratická aliance': 0, 'Česká pirátská strana': 3, 'Unie H.A.V.E.L.': 0, 'Referendum o Evropské unii': 0, 'TOP 09': 1, 'ANO 2011': 15, 'Dobrá volba 2016': 0, 'SPR-Republ.str.Čsl. M.Sládka': 0, 'Křesť.demokr.unie-Čs.str.lid.': 0, 'Česká strana národně sociální': 0, 'REALISTÉ': 0, 'SPORTOVCI': 0, 'Dělnic.str.sociální spravedl.': 0, 'Svob.a př.dem.-T.Okamura (SPD)': 4, 'Strana Práv Občanů': 0},...]
+code;location;registered;envelopes;valid;Občanská demokratická strana;Řád národa - Vlastenecká unie....
+565423;Bdín;51;34;34;1;0;0;7;0;1;1;1;0;0;0;0;3;0;0;1;15;0;0;0;0;0;0;0;4;0
+541672;Branov;170;120;119;10;1;0;14;0;0;23;0;1;1;0;0;13;0;0;2;40;0;0;5;0;1;0;0;7;1
 ```
