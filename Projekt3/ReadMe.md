@@ -20,26 +20,26 @@ $ pip install -r requirements.txt #instalace použitých knihoven
 Soubor elections_scraper.py se spouští v rámci příkazové řádky. Pro spuštění je nutné zadat dva povinné argumenty:
 
 ```
+python election_scraper.py <odkaz_uzemniho_celku> <vysledny_soubor>
 <odkaz_uzemniho_celku> - je nutné zvolit url z části pro výběr obce
 <vysledny_soubor> - je nutné zvolit soubor s příponou .csv
 ```
 
-```
-python election_scraper.py <odkaz_uzemniho_celku> <vysledny_soubor>
-```
-
-Po spuštění dojde ke stažení dat ze zvoleného odkazu do souboru csv s zvoleným názvem.
+Po spuštění dojde ke stažení dat ze zvoleného odkazu do souboru csv se zvoleným názvem.
 Projekt neumožňuje extrahovat výsledky voleb v zahraničí.
 
 ## Ukázka projektu
 
-Výsledky hlasování pro okres Rakovník:
+Výsledky hlasování pro okres Rakovník
 
+Výběr správného odkazu:
 ![Vyber okresu](vyber_okresu.png)
+
+Zadávané argumenty:
 
 ```
 1.  argument: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2112
-2.  argument: vysleky_rakovnik.csv
+2.  argument: vysledky_rakovnik.csv
 ```
 
 Průběh stahování:
