@@ -11,6 +11,9 @@ import csv
 import sys
 
 def ziskani_parsovane_odpovedi(url: str) -> bs:
+    status_kod = get(url).status_code
+    if status_kod != 200:
+        sys.exit()
     return bs(get(url).text, features="html.parser")
 
 def ziskani_td_tagu(odpoved: bs, atribut: str, hodnota_atributu: str) -> list:
