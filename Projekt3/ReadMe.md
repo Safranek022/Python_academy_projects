@@ -2,6 +2,10 @@
 
 Třetí projekt Python akademiie od Engeta
 
+## Požadovaná verze Pythonu
+
+Tento projekt vyžaduje Python verze 3.9 nebo vyšší.
+
 ## Popis projektu
 
 Tento projekt slouží k extrahování výsledků parlamentních voleb v ČR v roce 2017. Odkaz na [výsledky](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ). Výsledky jsou vyextrahovány do csv souboru.
